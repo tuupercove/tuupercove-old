@@ -2,6 +2,8 @@
 
 This project based on the [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+Vtuber Ranking with OAuth2 for security.
+
 ## Getting Started
 
 # Self-hosted
