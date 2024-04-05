@@ -1,23 +1,24 @@
-### TuuperCove
+#### TuuperCove
 
 This project based on the [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 Vtuber Ranking with OAuth2 for security.
 
-## Getting Started
+### Getting Started
 
-# Self-hosted
+## Self-hosted
 
-First, run the development server:
+First, install a packages:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+bun install
+```
+
+<!-- Suggested code may be subject to a license. Learn more: ~LicenseLog:761753782. -->
+Then, run the command:
+
+```bash
+bun run dev # for run a development server
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
