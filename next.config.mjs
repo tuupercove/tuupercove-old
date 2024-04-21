@@ -33,6 +33,16 @@ const nextConfig = {
   typescript: {
     tsconfigPath,
   },
+  extends: [
+    'plugin:@next/next/recommanded'
+  ],
+  eslint: {
+    dirs: [
+      'src',
+      'pages', 
+      'utils'
+    ], // Only run ESLint on the 'pages' and 'utils' directories during production builds (next build)
+  },
 };
 
 export default nextConfig;
