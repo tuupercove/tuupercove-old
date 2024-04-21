@@ -20,10 +20,10 @@ const nextConfig = {
     ]
   },
   assetPrefix: isProd ? 'https://cdncf.vtuberhub.in.th' : undefined,
-  generateBuildId: async () => {
+  //generateBuildId: async () => {
     // This could be anything, using the latest git hash
-    return process.env.GIT_HASH
-  },
+  //  return process.env.GIT_HASH
+  //},
   experimental: {
     urlImports: ['https://fonts.googleapis.com', 'https://www.youtube.com', 'https://cdncf.vtuberhub.in.th'],
     esmExternals,// https://nextjs.org/blog/next-11-1#es-modules-support
