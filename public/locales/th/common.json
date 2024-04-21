@@ -1,0 +1,14 @@
+{
+    "name": "TuuperCove",
+    "logo": "https://cdncf.vtuberhub.in.th/tpc512rmbg.png",
+    "change-locale": "เปลี่ยนภาษาเป็น \"{{changeTo}}\"",
+    "change-locale-th": "เปลี่ยนภาษาเป็น [ไทบ]",
+    "change-locale-en": "เปลี่ยนภาษาเป็น [EN]",
+    "error-with-status": "A {{statusCode}} error occurred on server",
+    "error-without-status": "An error occurred on the server",
+    "titleHome": "หน้าหลัก | TuuperCove",
+    "maintenance": {
+        "bigtext": "ขออภัย! ตอนนี้อยู่ในการซ่อมบำรุง",
+        "2nd-text": "ขณะนี้เรากำลังดำเนินการบำรุงรักษาเว็บไซต์ของเรา โปรดกลับมาตรวจสอบอีกครั้งในภายหลัง"
+    }
+}

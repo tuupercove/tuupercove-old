@@ -1,9 +1,8 @@
 import Image from "next/image";
-import { Inter } from "next/font/google";
 import Link from "next/link";
 import Header from "next/head"
 
-const inter = Inter({ subsets: ["latin"] });
+import PageBased from "@/components/page/based"
 
 export default function Home() {
   return (
@@ -11,8 +10,13 @@ export default function Home() {
       <Header>
         <title>Home - TuuperCove</title>
       </Header>
-      <p>Hmm it not finlished, please try again later</p>
-      <Link href='/try'>Try to click here!</Link>
+      <PageBased>
+        <div className="flex justify-center">
+          <div className="flex flex-col items-center">
+            
+          </div>
+        </div>
+      </PageBased>
     </main>
   );
 }

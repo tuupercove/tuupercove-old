@@ -7,3 +7,9 @@ a {
 } a:hover {
   color: red
 }
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}

@@ -1,4 +1,5 @@
-import Navbar from './Navbar'
+import Navbar from './defaultlay/Navbar'
+import {Footer} from './defaultlay/Footer'
 
 export default function Layout({
   children,
@@ -9,6 +10,7 @@ export default function Layout({
     <section>
       <Navbar />
       {children}
+      <Footer />
     </section>
   )
 }
