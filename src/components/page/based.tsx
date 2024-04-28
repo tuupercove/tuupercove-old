@@ -18,4 +18,4 @@ const PageBased = ({
     {children}
   </motion.div>
 );
-export default pageBase;
+export default PageBased;
