@@ -10,6 +10,8 @@
     pkgs.nodePackages.pnpm
     pkgs.bun
     pkgs.screenfetch
+    pkgs.ffmpeg
+    pkgs.libwebp
   ];
   # Sets environment variables in the workspace
   env = {};
